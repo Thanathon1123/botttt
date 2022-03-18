@@ -1,0 +1,19 @@
+{
+  "name": "bot-action-node-endpoint",
+  "version": "1.0.0",
+  "description": "An example of how to use bot actions in connect. Go to Server Control Panel | Secret Keys. Then change the APP_PORT and APP_VERIFICATION_TOKEN (Provided by the app config)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "http-server": "^0.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
